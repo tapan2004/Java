@@ -1,5 +1,4 @@
 package Java.Methods;
-
 public class Methods_ex {
     static String[] ingredients;
     static boolean sandwichReady;
@@ -12,7 +11,6 @@ public class Methods_ex {
         ingredients[3] = "Motton";
         System.out.println("All ingredients arranged");
     }
-
     public static void assembleSandwitch() {
         if (ingredients.length == 4) {
             if (ingredients[0].equals("bread") && ingredients[1].equals("chicken slices")
